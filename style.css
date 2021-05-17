@@ -1,80 +1,80 @@
-img, video {
-    max-width: 100%;
-    height: auto;
-    display: block;;
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 main {
-    margin: 70px;
+  margin: 70px;
 }
 
 header {
-    padding: 1rem 1rem;
-    top: 0;
-    background-color: floralwhite;
-    position: sticky;
-    text-align: center;
+  padding: 1rem 1rem;
+  top: 0;
+  background-color: floralwhite;
+  position: sticky;
+  text-align: center;
 }
 
 h1 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
 }
 
 footer {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 15px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 15px;
 }
 
 h2,
 p {
-    font-family: 'Barlow', sans-serif;
-    font-size: 20px;
-    color: black;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  color: black;
 }
 
 .credits,
 h3 {
-    font-family: 'Barlow', sans-serif;
-    font-size: 10px;
-    color: dimgrey;
+  font-family: "Barlow", sans-serif;
+  font-size: 10px;
+  color: dimgrey;
 }
 
 a {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Oswald;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Oswald;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .menu {
-    display: flex;
-    gap: 2opx;
-    text-align: center;
-    list-style: none;
+  display: flex;
+  gap: 2opx;
+  text-align: center;
+  list-style: none;
 }
 
 header nav ul {
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-    overflow-x: auto;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
 }
 
 iframe {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 iframe.wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
 
-    position: relative;
-    width: 100%;
-    height: 0;
-
-    padding-top: calc(100%/16/9));
+  padding-top: calc(100% / 16 / 9);
 }
