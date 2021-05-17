@@ -74,7 +74,7 @@ header nav ul {
   overflow-x: auto;
 }
 
-@media (min-width (800)) {
+@media (min-width(800px)) {
   iframe {
     width: 100%;
     height: auto;
