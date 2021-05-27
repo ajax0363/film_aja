@@ -10,10 +10,8 @@ main {
 }
 
 header {
-  padding: 1rem 1rem;
   top: 0;
   background-color: floralwhite;
-  position: sticky;
   text-align: center;
 }
 
